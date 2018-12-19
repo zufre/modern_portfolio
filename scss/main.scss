@@ -73,9 +73,10 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
-  grid-template-columns: repeat(3, 1fr);
+    "bioimage bioimage bio bio bio bio"
+    "job1 job1 job1 job2 job2 job2 "
+    "job3 job3 job3 job4 job4 job4";
+  grid-template-columns: repeat(6, 1fr);
 
   .bio-image {
     height: 200px;
@@ -97,6 +98,9 @@ main {
   }
   .job-3 {
     grid-area: job3;
+  }
+  .job-4 {
+    grid-area: job4;
   }
   .job {
     background: lighten($primary-color, 5);
