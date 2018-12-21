@@ -185,6 +185,31 @@ main {
     background: #515151;
     padding: 0.5em;
     border-bottom: #5ac3e6 5px solid; }
+  .about-info .job:hover {
+    opacity: 0.9; }
+  .about-info .job-1:active {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%; }
+  .about-info .job-2:active {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    height: 80%;
+    width: 60%; }
+  .about-info .job-3:active {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 60%; }
+  .about-info .job-4:active {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    height: 80%;
+    width: 60%; }
 
 .projects {
   display: grid;
@@ -272,7 +297,8 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/background.jpg");
+      background: url("../img/portrait.jpeg");
+      background-size: 150px 150px;
       width: 150px;
       height: 150px; }
   .about-info {

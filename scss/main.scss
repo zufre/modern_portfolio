@@ -107,6 +107,37 @@ main {
     padding: 0.5em;
     border-bottom: $secondary-color 5px solid;
   }
+  .job:hover {
+    opacity: 0.9;
+  }
+  .job-1:active {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+  }
+
+  .job-2:active {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    height: 80%;
+    width: 60%;
+  }
+  .job-3:active {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 60%;
+  }
+  .job-4:active {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    height: 80%;
+    width: 60%;
+  }
 }
 // Work/Projects
 .projects {
@@ -166,6 +197,7 @@ main {
 
 .btn-dark {
   @extend .btn;
+
   background: darken($primary-color, 50);
   color: #fff;
 }
