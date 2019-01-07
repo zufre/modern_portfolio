@@ -173,6 +173,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info #resume {
+    color: #5ac3e6; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -186,30 +188,27 @@ main {
     padding: 0.5em;
     border-bottom: #5ac3e6 5px solid; }
   .about-info .job:hover {
-    opacity: 0.9; }
+    opacity: 0.95; }
   .about-info .job-1:active {
     position: fixed;
-    top: 10%;
-    left: 10%;
-    height: 80%; }
+    top: 0;
+    left: 0;
+    width: 100%; }
   .about-info .job-2:active {
     position: fixed;
-    top: 10%;
-    right: 10%;
-    height: 80%;
-    width: 60%; }
+    top: 0;
+    left: 0;
+    width: 100%; }
   .about-info .job-3:active {
     position: fixed;
-    top: 10%;
-    left: 10%;
-    height: 80%;
-    width: 60%; }
+    top: 0;
+    left: 0;
+    width: 100%; }
   .about-info .job-4:active {
     position: fixed;
-    top: 10%;
-    right: 10%;
-    height: 80%;
-    width: 60%; }
+    top: 0;
+    right: 0;
+    width: 100%; }
 
 .projects {
   display: grid;
@@ -304,6 +303,33 @@ main {
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "job4";
     grid-template-columns: 1fr; }
+    .about-info .job-1:active {
+      position: relative;
+      top: initial;
+      left: -5%;
+      width: 110%;
+      margin-top: -3%;
+      margin-bottom: -3%; }
+    .about-info .job-2:active {
+      position: relative;
+      top: initial;
+      left: -5%;
+      width: 110%;
+      margin-top: -3%;
+      margin-bottom: -3%; }
+    .about-info .job-3:active {
+      position: relative;
+      top: initial;
+      left: -5%;
+      width: 110%;
+      margin-top: -3%;
+      margin-bottom: -3%; }
+    .about-info .job-4:active {
+      position: relative;
+      top: initial;
+      right: 5%;
+      width: 110%;
+      margin-bottom: -6%; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   .projects {

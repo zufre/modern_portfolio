@@ -90,6 +90,9 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
   }
+  #resume {
+    color: $secondary-color;
+  }
   .job-1 {
     grid-area: job1;
   }
@@ -108,35 +111,33 @@ main {
     border-bottom: $secondary-color 5px solid;
   }
   .job:hover {
-    opacity: 0.9;
+    opacity: 0.95;
   }
   .job-1:active {
     position: fixed;
-    top: 10%;
-    left: 10%;
-    height: 80%;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 
   .job-2:active {
     position: fixed;
-    top: 10%;
-    right: 10%;
-    height: 80%;
-    width: 60%;
+    top: 0;
+
+    left: 0;
+    width: 100%;
   }
   .job-3:active {
     position: fixed;
-    top: 10%;
-    left: 10%;
-    height: 80%;
-    width: 60%;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
   .job-4:active {
     position: fixed;
-    top: 10%;
-    right: 10%;
-    height: 80%;
-    width: 60%;
+    top: 0;
+    right: 0;
+    width: 100%;
   }
 }
 // Work/Projects
